@@ -16,15 +16,6 @@ subjects.forEach((subject) => {
 
 export default {
   mode: 'universal',
-  generate: {
-    dir: 'docs'
-  },
-  build: {
-    publicPath: 'docs'
-  },
-  router: {
-    base: '/ib-notes/'
-  },
   /*
   ** Headers of the page
   */
@@ -94,10 +85,12 @@ export default {
   },
 
   router: {
+    base: '/ib-notes/',
     linkActiveClass: 'active-link'
   },
 
   generate: {
+    dir: 'docs',
     routes: routes
   }
 }
