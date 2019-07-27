@@ -1,0 +1,66 @@
+.page-title {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: capitalize;
+  hyphens: auto;
+  margin-bottom: var(--main-padding);
+}
+
+.page-subtitle {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.back a, .back {
+  text-decoration: unset;
+  color: unset;
+  text-transform: capitalize;
+}
+
+html {
+  line-height: 1.5;
+}
+p {
+  padding-bottom: 1rem;
+}
+h1,h2,h3,h4 {
+  padding-top: 1rem;
+  hyphens: auto;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 700
+}
+h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+ul, ol {
+  margin-left: 2rem;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: var(--main-padding);
+  margin-bottom: var(--main-padding);
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: var(--dense-padding);
+}
+.responsive-table {
+  width: 100%;
+  overflow-x: scroll;
+}

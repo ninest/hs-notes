@@ -1,0 +1,38 @@
+$phone: 500px;
+
+@mixin phone-screen {
+  @media screen and (max-width: $phone) {
+    @content
+  }
+}
+
+:root {
+  --main-font-size: 20px;
+  @include phone-screen {--main-font-size: 18px}
+
+  // paddings
+  --side-padding: 30px;
+  --main-padding: 30px;
+  --dense-padding: 20px;
+  @include phone-screen {
+    --side-padding: 24px;
+    --main-padding: 24px;
+    --dense-padding: 18px;
+  }
+
+  // borders
+  --main-border: 1px solid #ccc;
+}
+
+// containers
+.container {
+  padding: var(--main-padding);
+
+  &.dense {
+    padding: var(--dense-padding) var(--main-padding);
+  }
+}
+
+.bottom-padding {
+  padding-bottom: var(--main-padding);
+}
