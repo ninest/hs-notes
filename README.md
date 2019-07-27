@@ -1,6 +1,6 @@
-# blog-starter
+# IB Notes
 
-> My perfect Nuxt.js project
+> NuxtJS site to share IB notes
 
 ## Build Setup
 
