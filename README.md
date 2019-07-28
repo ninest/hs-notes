@@ -1,4 +1,4 @@
-# IB Notes
+# [IB Notes](https://themindstorm.github.io/ib-notes/)
 
 > NuxtJS site to share IB notes
 
