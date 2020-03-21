@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-size: 19px;
+  // letter-spacing: 0.8px;
+  font-family: 'Inter', var(--fallback-font); 
+}
+* { box-sizing: border-box; }
+body { 
+  background-color: #fffffe;
+  // background-color: red;
+  color: var(--font-color);
+}
+
+h1 {
+  font-family: 'Poppins', var(--fallback-font);
+}
+
+

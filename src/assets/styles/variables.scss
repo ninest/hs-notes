@@ -1,0 +1,38 @@
+
+
+@mixin mobile-screen {
+  @media screen and (max-width: 750px) {
+    @content
+  }
+}
+@mixin tablet-screen {
+  @media screen and (max-width: 1150px) {
+    @content
+  }
+}
+@mixin not-mobile-screen {
+  @media screen and (min-width: 750px) {
+    @content
+  }
+}
+
+:root {
+  --font-size: 19px;
+  --font-color: #010101;
+  --fallback-font: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+
+  --extra-padding: 3em;
+  --main-padding: 2em;
+  --dense-padding: 1em;
+  --small-padding: 0.5em;
+
+  --page-side-padding: 22%;
+  @include mobile-screen { --page-side-padding: 7%; }
+
+  --page-padding: var(--main-padding) var(--page-side-padding);
+
+  --border-radius: 0.25em;
+
+  // colors
+  --text-color-light: rgba(255, 255, 255, 0.800);
+}

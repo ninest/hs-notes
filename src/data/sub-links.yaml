@@ -1,0 +1,18 @@
+- sub: Computer Science
+  link: computer-science
+  items:
+    - title: Exam-style Questions
+      link: /exam-style-questions/
+    - title: Database Exam-style Questions
+      link: /database-exam-style-questions/
+    - title: Algorithms
+      link: /algorithms/
+    - title: Data Recovery
+      link: /data-recovery/
+- sub: Chemistry
+  link: chemistry
+  items:
+    - title: Exam-style Questions
+      link: /exam-style-questions/
+    - title: Quick Notes
+      link: /quick-notes/
