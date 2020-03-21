@@ -16,3 +16,12 @@
       link: /exam-style-questions/
     - title: Quick Notes
       link: /quick-notes/
+- sub: English Literature
+  link: english-literature
+  items:
+    - title: A Doll's House Notes
+      link: adh-notes
+    - title: Wide Sargasso Sea Notes
+      link: wss-notes
+    - title: Wide Sargasso Sea Symbols
+      link: wss-symbols
