@@ -19,12 +19,19 @@ query ($id: ID!) {
 </page-query>
 
 <script>
-import Layout from "../layouts/Default.vue"
+import Layout from "../layouts/Default.vue";
 
 import More from "../components/More.vue";
 import BackButton from "../components/BackButton.vue";
 
-export default { components: { Layout, More, BackButton } };
+export default {
+  metaInfo() {  
+    return {
+      title: `${this.$page.sub.title} - ${this.$page.sub.fileInfo.directory}`
+    }
+  },
+  components: { Layout, More, BackButton }
+};
 </script>
 
 <style lang="scss" scoped>
@@ -34,5 +41,4 @@ export default { components: { Layout, More, BackButton } };
 h1 {
   margin-top: 0;
 }
-
 </style>

@@ -15,7 +15,7 @@ import links from "../data/sub-links.yaml";
 
 export default {
   metaInfo: {
-    title: "Hello, world!"
+    title: "All Subjects"
   },
   data: () => {
     return {

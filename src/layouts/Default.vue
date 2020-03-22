@@ -3,7 +3,10 @@
     div(v-if="!hideNavbar")
       Navbar
     main
-      slot
+      article
+        slot
+      div 
+        h2 contents
 </template>
 
 <script>
@@ -28,5 +31,8 @@ query {
 main {
   padding: var(--page-padding);
   padding-top: 0;
+
+  display: grid;
+  grid-template-columns: 40% 60%;
 }
 </style>
