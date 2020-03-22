@@ -1,5 +1,5 @@
 <template lang="pug">
-  Layout(:hideNavbar="true")
+  Layout(:hideNavbar="true" :rightBar="true")
     BackButton(to='/') subjects
     .subject-name {{ $page.sub.fileInfo.directory }}
     h1 {{ $page.sub.title }}

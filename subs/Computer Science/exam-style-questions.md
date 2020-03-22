@@ -365,11 +365,11 @@ title: Exam-style Questions
 <!-- <p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Computer-science0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p> -->
 
 
-<!-- ![alt_text](images/Computer-science0.png "image_tooltip") -->
+<!-- ![alt_text](images/Computer-science0.png "image_tooltip") 
 
     28. Identify the part of the CPU which performs decoding and which executes the instructions [2]
         *   Control unit performs decoding
-        *   Arithmetic and logic unit executes instructions
+        *   Arithmetic and logic unit executes instructions-->
 
 
 ## Networks

@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  font-size: 19px;
+  font-size: 17px;
   // letter-spacing: 0.8px;
   font-family: 'Inter', var(--fallback-font); 
 }
@@ -14,7 +14,20 @@ body {
 }
 
 h1 {
-  font-family: 'Poppins', var(--fallback-font);
+  // font-family: 'Poppins', var(--fallback-font);
 }
 
+.sidebar {
+  padding-top: calc(2* var(--extra-padding));
 
+  .sidebar-item {
+    background-color: rgba(0, 0, 0, 0.08);
+    padding: var(--main-padding);
+    border-radius: var(--border-radius);
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}

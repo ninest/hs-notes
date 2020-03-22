@@ -18,7 +18,7 @@ nav {
   background-color: black;
   color: white;
 
-  font-family: 'Poppins', var(--fallback-font);
+  // font-family: 'Poppins', var(--fallback-font);
 
   a {
     color: unset;

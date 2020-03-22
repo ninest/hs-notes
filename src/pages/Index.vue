@@ -30,6 +30,6 @@ export default {
 @import "../assets/styles/list.scss";
 
 h2,h3 {
-  font-family: 'Poppins', var(--fallback-font);
+  // font-family: 'Poppins', var(--fallback-font);
 }
 </style>
