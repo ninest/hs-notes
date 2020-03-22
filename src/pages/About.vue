@@ -1,6 +1,7 @@
 <template lang="pug">
   Layout
-    h1 About us
+    h1 About
+    p An archive of my high school notes.
 </template>
 
 <script>

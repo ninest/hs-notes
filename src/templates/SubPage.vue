@@ -14,6 +14,11 @@ query ($id: ID!) {
     fileInfo {
       directory
     }
+    headings {
+      depth
+      value
+      anchor
+    }
   }
 }
 </page-query>

@@ -42,7 +42,7 @@ main {
     // background-color: blue;
     // width: 100%;
     display: grid;
-    grid-template-columns: calc(100% - 210px) 240px;
+    grid-template-columns: calc(100% - 280px) 280px;
     grid-gap: var(--dense-padding);
 
     @include mobile-screen {
