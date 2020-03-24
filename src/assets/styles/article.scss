@@ -1,7 +1,16 @@
+@import "./variables.scss";
+
 .content {
   // for nested lists
   ol ol {
     list-style-type: lower-alpha;
+  }
+
+  // prevent overflow 
+  // word-break: keep-all;
+
+  @include mobile-screen {
+  hyphens: auto;
   }
 }
 

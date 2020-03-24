@@ -3,7 +3,7 @@
     g-link(to='/').logo Notes
     .side
       g-link(to='/about') About
-      a(href='https://github.com/themindstorm') GitHub
+      a(href='https://github.com/themindstorm' target="_blank") GitHub
 </template>
 
 <style lang="scss" scoped>
@@ -28,7 +28,10 @@ nav {
 
   .logo {
     font-size: 1.3em;
-    font-weight: 700;
+
+    &.active{
+      font-weight: 700;
+    }
   }
   .side {
     display: flex;

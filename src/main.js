@@ -10,7 +10,8 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'theme-color',
-    content: '#4600ff'
+    // content: '#4600ff'
+    content: '#000000'
   }),
 
   // INter UI font
